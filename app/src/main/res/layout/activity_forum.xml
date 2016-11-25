@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/srl_forum"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_refresh"
+        app:srl_direction="both">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_forum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarThumbVertical="@drawable/shape_forum_recycbar"
+            android:scrollbars="vertical" />
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_forum_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_forum_banner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+</LinearLayout>

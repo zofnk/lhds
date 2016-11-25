@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_mystery_jie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/shape_mystery_bg_1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.lh16808.app.lhds.widget.LoadClassicView
+            android:id="@+id/lcv_LoadClassicView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="点击加载上回分解"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

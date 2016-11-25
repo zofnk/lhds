@@ -1,0 +1,9 @@
+<resources>
+
+    //values-v19
+    <dimen name="padding_top">28dp</dimen>
+    <dimen name="home_time_width">25dp</dimen>
+    <dimen name="home_time_txt_size">16sp</dimen>
+    <dimen name="home_time_padding">10dp</dimen>
+
+</resources>

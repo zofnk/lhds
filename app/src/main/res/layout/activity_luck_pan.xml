@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_summary"
+        android:padding="12dp"
+        android:text="簡介\n轉轉轉！轉出本期的幸运号码，激動不如行動，趕緊轉出您心目中的幸运号码！" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.lh16808.app.lhds.widget.LuckyPanView
+            android:id="@+id/lpv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin" />
+
+        <ImageView
+            android:id="@+id/iv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_promt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_back_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="28dp"
+        android:background="@null">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_back_right_white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:hint="请输入您的登录帐号/昵称"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#B2ffffff"
+            android:textColorHint="#B2d2d2d2"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d7d7d7"></View>
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:hint="请输入您的邮箱(便于密码找回)"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#B2ffffff"
+            android:textColorHint="#B2d2d2d2"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d7d7d7"></View>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:hint="请输入您的电话号码"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="#B2ffffff"
+            android:textColorHint="#B2d2d2d2"
+            android:textSize="12sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d7d7d7"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:background="@null"
+                android:hint="请输入(a-zA-Z0-9_)不少于6位的密码"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="#B2ffffff"
+                android:textColorHint="#B2d2d2d2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/iv_eye"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:scaleType="center"
+                android:src="@drawable/eyes_close" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d7d7d7"></View>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orgin_btn_bg"
+        android:text="注册"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击注册按钮,即表示您同意"
+            android:textColor="#77808080"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_to_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="软件许可及服务协议"
+            android:textColor="#5B90D7"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

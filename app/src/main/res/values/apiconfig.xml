@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 1.正式地址 -->
+    <!-- 2.图片加载 -->
+    <string name="all_url">http://app.admin.mahuiapp.com:889/zdr_android.json</string>
+    <string name="base_url">http://wap.jizhou56.com:8090</string>
+    <string name="base_url_ad">http://ad.jizhou56.com:8090</string>
+    <string name="base_url_img">http://img.jizhou56.com:8090/</string>
+    <string name="base_url_zl">http://ziliao.jizhou56.com:8090/</string>
+    <string name="base_url_kj">http://app.jizhou56.com:8090/</string>
+</resources>

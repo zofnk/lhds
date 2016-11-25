@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ball_bg_ll"
+    android:orientation="vertical"
+    tools:context="com.lh16808.app.lhds.activity.SetActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <LinearLayout style="@style/PersonalMainLayoutStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:id="@+id/rlv_name_view"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="清" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="清除缓存" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffcccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="音" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="音量设置" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/PersonalMainLayoutStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="邀" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="邀请好友使用六合大师" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffcccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="意" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="意见反馈" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffcccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="赏" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="赏个好评" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffcccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="关" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="关于" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/PersonalMainLayoutStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_mine_relativelayout"
+            android:gravity="center_vertical">
+
+
+            <com.lh16808.app.lhds.widget.RoundedLetterView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="2dp"
+                app:rlv_backgroundColorValue="@android:color/holo_blue_light"
+                app:rlv_titleColor="@android:color/white"
+                app:rlv_titleSize="15dp"
+                app:rlv_titleText="检" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="检查更新" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_mine_right" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/orgin_btn_bg"
+        android:text="退出登录"
+        android:textColor="@color/white" />
+
+</LinearLayout>

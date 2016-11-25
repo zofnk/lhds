@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="transparent">#00000000</color><!--透明色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="gray_8f">#8f8f8f</color><!--灰色8f -->
+
+    <color name="red">#ff0000</color><!--灰色8f -->
+    <color name="color_ball_bg_ll">#F0F7FA</color>
+    <color name="color_ball_bg_tv">#E7E7E7</color>
+
+    <color name="radio_selected_color">#ffffff</color>
+    <color name="radio_not_selected_color">#00BFFF</color>
+    <color name="radio_theme">#00BFFF</color>
+
+
+    <color name="btn_orgin_pressed">#b2ffd84c</color>
+    <color name="btn_orgin_normal">#b2ffca08</color>
+    <color name="btn_orgin_disable">#b2d9d9d9</color>
+
+    <color name="orange">#FFA500</color><!--橙色 -->
+    <color name="trans_gray_line">#77808080</color>
+</resources>

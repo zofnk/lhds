@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lh16808.app.lhds.fragment.MysteryFragment">
+
+
+    <LinearLayout
+        android:id="@+id/ll_ft_mystery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <RadioGroup
+                android:id="@+id/radio_shenghe"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_shenghe1"
+                    style="@style/myRadioStyle"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_btn_left"
+                    android:checked="true"
+                    android:text="脑筋急转弯" />
+
+                <RadioButton
+                    android:id="@+id/radio_shenghe2"
+                    style="@style/myRadioStyle"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_btn_riget"
+                    android:text="玄机笑话" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/srl_ft_ms_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srl_direction="both">
+
+            <ListView
+                android:id="@+id/rv_ft_ms_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </LinearLayout>
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rls_ft_ms_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:srl_direction="top">
+
+        <WebView
+            android:id="@+id/web_ft_mystery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+</LinearLayout>

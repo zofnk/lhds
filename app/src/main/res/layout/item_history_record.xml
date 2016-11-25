@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z1m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z1sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z2m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z2sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z3m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z3sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z4m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z4sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z5m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z5sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_z6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_z6m"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_z6sx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adsadsadsads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="+"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_tm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_tm"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="@dimen/dimen_60px_4_640px"
+                    android:layout_margin="3dp"
+                    android:gravity="center_horizontal"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_tmsx"
+                    android:layout_width="@dimen/dimen_60px_4_640px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@android:color/darker_gray" />-->
+
+</LinearLayout>

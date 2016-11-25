@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tu_ku"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ball_bg_tv"
+    android:orientation="vertical"
+    tools:context="com.lh16808.app.lhds.activity.TuKuActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_tuKu_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_tuKu_banner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <com.astuetz.PagerSlidingTabStrip
+            android:id="@+id/tabs_tuKu"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            app:pstsDividerColor="#00000000"
+            app:pstsIndicatorColor="#ff00ff00"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsTabPaddingLeftRight="1dp"
+            app:pstsShouldExpand="true" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_tuKu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

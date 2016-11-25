@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lh16808.app.lhds">
+
+    <!-- 添加自定义的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".base.BaseAPP"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/TranslucentTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.KJVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TuKuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".widget.imagelook.ui.ImagePagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CategoryDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZiliaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HistoryRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HistoryInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.LottoService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.LottoActivity" />
+        <activity android:name=".activity.ForumActivity" />
+        <activity android:name=".activity.MysteryActivity" />
+        <activity android:name=".activity.ZiliaoDetailActivity" />
+        <activity
+            android:name=".activity.ForumDetailActivity"
+            android:theme="@style/ATheme" />
+        <activity android:name=".activity.NatureActivity" />
+        <activity android:name=".activity.XunBaoActivity" />
+        <activity android:name=".activity.LuckPanActivity" />
+        <activity android:name=".activity.ShakeActivity" />
+        <activity android:name=".activity.HuiFuActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SetActivity" />
+        <activity android:name=".activity.MyCollectActivity" />
+        <activity android:name=".activity.PeopleDataActivity" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activity.CardActivity"></activity>
+    </application>
+
+</manifest>

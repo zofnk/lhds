@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_collect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ball_bg_ll"
+    android:orientation="vertical"
+    tools:context="com.lh16808.app.lhds.activity.MyCollectActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_collect_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include1"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rp_collect_se"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_collect_se1"
+                style="@style/myRadioStyle"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn_left"
+                android:checked="true"
+                android:text="未审核" />
+
+            <RadioButton
+                android:id="@+id/rb_collect_se2"
+                style="@style/myRadioStyle"
+                android:layout_weight="1"
+                android:background="@drawable/radio_btn_riget"
+                android:text="已审核" />
+        </RadioGroup>
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/list_myCollect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+
+        <LinearLayout
+            android:id="@+id/tv_myCollect_neirong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_not_data" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="此地未有數據~"
+                android:textColor="#a9b7b7"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
